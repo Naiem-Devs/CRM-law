@@ -251,10 +251,35 @@ i.circle-img {
 .award-area {
     padding-bottom: 0;
 }
+.carousel .list .item .buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    font-size: 14px;
+}
+.carousel .list .item .content{
+    max-width: 90%;
+}
+.arrows{
+    right: 58%;
+    top: 85%;
+}
 }
  
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
- 
+.carousel .list .item .buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    font-size: 14px;
+}
+.carousel .list .item .content{
+    max-width: 80%;
+}
+.arrows{
+    right: 52%;
+    top: 80%;
+}
 }
